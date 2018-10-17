@@ -1,0 +1,60 @@
+body{
+  margin: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: grey;
+}
+.morpion{
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+}
+
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  flex: 1;
+  display: flex;
+}
+
+.cell{
+  flex: 1;
+  border: 1px solid white;
+
+}
+
+.test{
+  width: 100px;
+  background-color: black;
+}
+
+.joueur1 {
+    background-image: url('../croix2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+}
+
+.joueur2 {
+  background-image: url('../rond2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+
+
+}
+
+.cell:hover{
+  background-color: #3266ba;
+}
